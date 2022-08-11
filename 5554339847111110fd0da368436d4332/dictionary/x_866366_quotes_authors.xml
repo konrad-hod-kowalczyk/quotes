@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="authors" max_length="40" name="x_866366_quotes_authors" sizeclass="10032" type="collection">
+        <element display="true" label="author" max_length="40" name="author" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var name = &#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Name" max_length="40" name="name" type="string"/>
+        <element label="surname" max_length="40" name="surname" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_866366_quotes_category</description>
+        <name>x_866366_quotes_category</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 07:44:21</sys_created_on>
+        <sys_id>90a5ffd847111110fd0da368436d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_866366_quotes_category</sys_name>
+        <sys_package display_value="Quotes" source="x_866366_quotes">5554339847111110fd0da368436d4332</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotes">5554339847111110fd0da368436d4332</sys_scope>
+        <sys_update_name>sys_security_acl_90a5ffd847111110fd0da368436d4397</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 07:44:21</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Quotes">5554339847111110fd0da368436d4332</application>
+        <file_path/>
+        <instance_id>c48953a9db8d0950e03ad7c8f49619a6</instance_id>
+        <instance_name>dev121514</instance_name>
+        <name>sys_security_acl_90a5ffd847111110fd0da368436d4397</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_866366_quotes_category</description><name>x_866366_quotes_category</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-10 07:44:21</sys_created_on><sys_id>90a5ffd847111110fd0da368436d4397</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_866366_quotes_category</sys_name><sys_package display_value="Quotes" source="x_866366_quotes">5554339847111110fd0da368436d4332</sys_package><sys_policy/><sys_scope display_value="Quotes">5554339847111110fd0da368436d4332</sys_scope><sys_update_name>sys_security_acl_90a5ffd847111110fd0da368436d4397</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-10 07:44:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1482128711</payload_hash>
+        <record_name>x_866366_quotes_category</record_name>
+        <reverted_from/>
+        <source>9554339847111110fd0da368436d4334</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 07:44:21</sys_created_on>
+        <sys_id>5ca5ffd847111110fd0da368436d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18286b6298a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 07:44:21</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>94a5ffd8d51111105c5150a2409f7599</update_guid>
+        <update_guid_history>94a5ffd8d51111105c5150a2409f7599:-1482128711</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 08:30:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>c26e1a9a99b24f2995e1eb5729651dc9</sys_id>
+        <sys_metadata>90a5ffd847111110fd0da368436d4397</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_866366_quotes_category</sys_name>
+        <sys_package display_value="Quotes" source="x_866366_quotes">5554339847111110fd0da368436d4332</sys_package>
+        <sys_parent display_value="">10a5ffd847111110fd0da368436d43ab</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Quotes">5554339847111110fd0da368436d4332</sys_scope>
+        <sys_scope_delete display_value="">1146edd15d084f028b4f2783f5260484</sys_scope_delete>
+        <sys_update_name>sys_security_acl_90a5ffd847111110fd0da368436d4397</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_90a5ffd847111110fd0da368436d4397">5ca5ffd847111110fd0da368436d4399</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 08:30:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
