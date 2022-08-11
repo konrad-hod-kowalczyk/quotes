@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>true</before>
+        <description/>
+        <name>populate_name</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var gr = new GlideRecord("x_866366_quotes_authors"); //your table
+gr.addQuery('author', 'DOES NOT CONTAIN', ' ');
+gr.query();
+
+//loop through the returned records
+while (gr.next()) {
+	var author = gr.getValue("author");
+	var text1=author;
+	var text2='';
+	gr.setValue("name",text1);
+	gr.setValue("surname",text2);
+	gr.update(); //update record.
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 11:27:13</sys_created_on>
+        <sys_id>2202682447151110fd0da368436d43ac</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>populate_name</sys_name>
+        <sys_package display_value="Quotes" source="x_866366_quotes">5554339847111110fd0da368436d4332</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotes">5554339847111110fd0da368436d4332</sys_scope>
+        <sys_update_name>sys_script_fix_2202682447151110fd0da368436d43ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 12:10:49</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

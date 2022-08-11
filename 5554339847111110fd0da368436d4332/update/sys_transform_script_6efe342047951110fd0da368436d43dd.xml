@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="transform_quotes">a929f75047511110fd0da368436d43ce</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+	var author = target.getValue("author");
+	var index = -1;
+	index = author.indexOf(' ');  // Gets the first index where a space occours
+	var text1='';
+	var text2='';
+	if(index>-1)
+		{
+		text1 = author.substr(0, index); // Gets the first part
+		text2 = author.substr(index + 1);
+		}
+	else 
+		{
+			text1=author;
+		}
+	var gr = new GlideRecord('authors');
+	gr.addQuery('author','=',author);
+	gr.query();
+	while(gr.hasNext())
+	{
+		if(gr.getValue("name")=='' || gr.getValue("name")==null)
+		{
+			gr.setValue("name",text1);
+			gr.setValue("surname",text2);
+			gr.update(); //update record.
+		}
+	}
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 14:28:43</sys_created_on>
+        <sys_id>6efe342047951110fd0da368436d43dd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="Quotes" source="x_866366_quotes">5554339847111110fd0da368436d4332</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotes">5554339847111110fd0da368436d4332</sys_scope>
+        <sys_update_name>sys_transform_script_6efe342047951110fd0da368436d43dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 14:54:42</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+</record_update>

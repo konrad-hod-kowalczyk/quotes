@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="quotes">30f67b5c47111110fd0da368436d43d6</application>
+        <filter/>
+        <name>quotes</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_866366_quotes.quotes_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 07:50:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fcf67b5c47111110fd0da368436d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>quotes</sys_name>
+        <sys_package display_value="Quotes" source="x_866366_quotes">5554339847111110fd0da368436d4332</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotes">5554339847111110fd0da368436d4332</sys_scope>
+        <sys_update_name>sys_ui_module_fcf67b5c47111110fd0da368436d43d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 07:50:07</sys_updated_on>
+        <table>x_866366_quotes_quotes</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Quotes">5554339847111110fd0da368436d4332</application>
+        <file_path/>
+        <instance_id>c48953a9db8d0950e03ad7c8f49619a6</instance_id>
+        <instance_name>dev121514</instance_name>
+        <name>sys_ui_module_fcf67b5c47111110fd0da368436d43d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="quotes">30f67b5c47111110fd0da368436d43d6</application><filter/><name>quotes</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_866366_quotes.quotes_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-10 07:50:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fcf67b5c47111110fd0da368436d43d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>quotes</sys_name><sys_package display_value="Quotes" source="x_866366_quotes">5554339847111110fd0da368436d4332</sys_package><sys_policy/><sys_scope display_value="Quotes">5554339847111110fd0da368436d4332</sys_scope><sys_update_name>sys_ui_module_fcf67b5c47111110fd0da368436d43d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-10 07:50:07</sys_updated_on><table>x_866366_quotes_quotes</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1684575915</payload_hash>
+        <record_name>quotes</record_name>
+        <reverted_from/>
+        <source>9554339847111110fd0da368436d4334</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 07:50:07</sys_created_on>
+        <sys_id>78f67b5c47111110fd0da368436d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18286bb72f40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 07:50:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>b0f67b5c64111110d5081732f6c4fad9</update_guid>
+        <update_guid_history>b0f67b5c64111110d5081732f6c4fad9:1684575915</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 08:31:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>11414e041d1242528d9b0c0e85d4f799</sys_id>
+        <sys_metadata>fcf67b5c47111110fd0da368436d43d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>quotes</sys_name>
+        <sys_package display_value="Quotes" source="x_866366_quotes">5554339847111110fd0da368436d4332</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Quotes">5554339847111110fd0da368436d4332</sys_scope>
+        <sys_scope_delete display_value="">1146edd15d084f028b4f2783f5260484</sys_scope_delete>
+        <sys_update_name>sys_ui_module_fcf67b5c47111110fd0da368436d43d7</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_fcf67b5c47111110fd0da368436d43d7">78f67b5c47111110fd0da368436d43d9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 08:31:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
